@@ -23,7 +23,8 @@ class HornedBeast extends React.Component {
   render() {
     return (
       <>
-      <h2>{this.props.name}</h2>
+      <article>
+      <h2>{this.props.title}</h2>
       <p>{this.state.likes}Likes</p>
       <p onClick={this.handleLikes}>Liked 💓</p>
       <img 
@@ -32,6 +33,7 @@ class HornedBeast extends React.Component {
         title={this.props.title} 
       />
       <p>{this.props.para}</p>
+      </article>
       </>
     )
   }
