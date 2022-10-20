@@ -1,9 +1,9 @@
-Number and name of feature: ________________________________
+Number and name of feature:gallery of horns adding modal and attemting the render
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: __4hrs___
 
-Start time: _____
+Start time: __1530pst___
 
-Finish time: _____
+Finish time: __2133___
 
-Actual time needed to complete: _____
+Actual time needed to complete: __8hrs___

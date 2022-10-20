@@ -15,6 +15,8 @@ class Main extends React.Component{
         alt={beast.keyword}
         src={beast.image_url}
         key={index}
+        handleOpenModal={this.props.handleOpenModal}
+        beastObj={beast}
         //hornes={beast.horns}
         />
       
