@@ -1,7 +1,7 @@
 import React from 'react';
 import HornedBeast from './HornedBeast.js';
-
-
+import { Container } from 'react-bootstrap';
+import Row from 'react-bootstrap/Row';
 
 class Main extends React.Component{
   render(){
@@ -25,7 +25,11 @@ class Main extends React.Component{
        return(
       <>
       <main>
+      <Container>
+      <Row xs={2} md={4} lg={6}>
       {hornAnimal}
+      </Row>
+      </Container>
       </main>
       </>
     )

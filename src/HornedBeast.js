@@ -1,8 +1,9 @@
 import React from "react";
-import { Container } from 'react-bootstrap';
+import Row from 'react-bootstrap/Row';
+import {Col} from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import Row from 'react-bootstrap/Row';
+
 
 
 class HornedBeast extends React.Component {
@@ -28,10 +29,11 @@ class HornedBeast extends React.Component {
   render() {
     return (
       <>
-        <Container>
-          <Row xs={2} md={4} lg={6}></Row>
-          <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" onClick={this.handleBeastChosen}
+        
+          <Col className='mb-5' >
+          <Row className='mb-5'>
+          <Card style={{ width: '19rem' }}>
+            <Card.Img  variant="top" onClick={this.handleBeastChosen}
               alt={this.props.alt}
               src={this.props.src}
               title={this.props.title} />
@@ -43,8 +45,9 @@ class HornedBeast extends React.Component {
               </Card.Text><Button variant="primary" onClick={this.handleLikes}>Liked💓</Button>
             </Card.Body>
           </Card>
+          </Row>
+          </Col>
         
-      </Container>  
       </>
     )
   }
